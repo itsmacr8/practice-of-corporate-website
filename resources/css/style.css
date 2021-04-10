@@ -94,7 +94,10 @@ img {
   color: var(--black);
   background-color: var(--primary);
 }
-
+.btn:hover .icon-button{
+  margin-left: 1rem;
+  display: inline-block;
+}
 a.btn {
   text-decoration: none;
 }
@@ -257,7 +260,7 @@ header {
   text-align: center;
 }
 .icon-button {
-  margin-left: 2rem;
+  display: none;
 }
 .join-image::before {
   content: "";
