@@ -233,6 +233,26 @@ header {
   background: #e7e7e7;
   padding-top: 5rem;
 }
+.four-column-grid{
+  display: grid;
+  grid-template-columns: 5% 40% 50% 5%;
+  place-items: center;
+  column-gap: 2rem;
+  padding: 5rem 0;
+}
+.arrow {
+  cursor: pointer;
+}
+.arrow i{
+  color: var(--primary);
+}
+.expert-avatar img{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.expert-details{
+  margin-left: 10rem;
+  text-align: center;
+}
 
 .join-section {
   padding: 5rem 0;
@@ -376,7 +396,7 @@ footer {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
-  color: var(--white);
+  color: var(--primary);
   cursor: pointer;
 }
 
